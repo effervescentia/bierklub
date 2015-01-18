@@ -14,10 +14,6 @@
 	border-color: #78FA89;
 }
 
-.anchor-link {
-	cursor: pointer;
-}
-
 .navbar {
 	background: #ffffff none;
 }
@@ -56,5 +52,31 @@
 
 @font-face {
 	font-family: playball;
-	src: url(../fonts/Playball.ttf);
+	src: url(../fonts/Playball.ttf) format('truetype');
+}
+
+.navbar-crest {
+	padding: 5px 15px 5px 15px;
+}
+
+@media (min-width: 768px) {
+	.navbar-center {
+		float: right;
+
+		position: relative;
+		left: 50%;
+
+	}
+	.navbar-center-left {
+		display: inline-block;
+		/*margin: 0 auto;*/
+		/*float: left !important;*/
+	}
+	.navbar-center-right {
+		margin: 0 auto;
+		float: right !important;
+	}
+	.navbar-center-right ~ .navbar-center-right {
+		margin-right: 0;
+	}
 }
