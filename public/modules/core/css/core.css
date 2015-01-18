@@ -14,6 +14,12 @@
 	border-color: #78FA89;
 }
 
+.jumbo-text {
+	color: #1b3478;
+	font-size: 700%;
+	font-family: playball, serif;
+}
+
 .navbar {
 	background: #ffffff none;
 }
@@ -27,17 +33,20 @@
 
 .navbar-inverse .navbar-nav > li > a:focus {
 	color: #000000;;
+	text-decoration: underline;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
 	background: #ffffff none;
 	color: #000000;
 	box-shadow: none;
+	text-decoration: underline;
 }
 
 .navbar-inverse .navbar-nav > .active > a:focus {
 	background-color: #ffffff;
 	color: #000000;
+	text-decoration: underline;
 }
 
 .navbar-inverse .navbar-nav > .active > a:hover {
