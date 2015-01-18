@@ -13,3 +13,15 @@
 .ng-valid.ng-dirty {
 	border-color: #78FA89;
 }
+
+.navbar-default {
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+}
+
+/*.navbar {*/
+/*}*/
+
+/*.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {*/
+	/*background: #fff none;*/
+/*}*/

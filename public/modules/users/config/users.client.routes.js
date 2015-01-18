@@ -17,13 +17,17 @@ angular.module('users').config(['$stateProvider',
 			url: '/settings/accounts',
 			templateUrl: 'modules/users/views/settings/social-accounts.client.view.html'
 		}).
-		state('signup', {
-			url: '/signup',
-			templateUrl: 'modules/users/views/authentication/signup.client.view.html'
+		state('brews', {
+			url: '/brews',
+			templateUrl: 'modules/users/views/authentication/brews.client.view.html'
 		}).
-		state('signin', {
-			url: '/signin',
-			templateUrl: 'modules/users/views/authentication/signin.client.view.html'
+		state('about', {
+			url: '/about',
+			templateUrl: 'modules/users/views/authentication/about.client.view.html'
+		}).
+		state('contact', {
+			url: '/contact',
+			templateUrl: 'modules/users/views/authentication/contact.client.view.html'
 		}).
 		state('forgot', {
 			url: '/password/forgot',
