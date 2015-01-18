@@ -1,11 +1,12 @@
 <div class="container" data-ng-controller="HeaderController">
 	<ul class="nav navbar-nav navbar-left" data-ng-hide="authentication.user">
 		<li ui-route="/news" ng-class="{active: $uiRoute}">
-			<a href="/#news/">NEWS</a>
+			<a class="anchor-link" ng-click="goToNews()">News</a>
+			<!--<a href="#news">News</a>-->
 		</li>
 		<li class="divider-vertical"></li>
 		<li ui-route="/brews" ng-class="{active: $uiRoute}">
-			<a href="/#!/brews">BREWS</a>
+			<a href="/#!/brews">Brews</a>
 		</li>
 	</ul>
 	<!--<div class="navbar-header">-->
@@ -34,11 +35,11 @@
 		<!--</ul>-->
 		<ul class="nav navbar-nav navbar-right" data-ng-hide="authentication.user">
 			<li ui-route="/about" ng-class="{active: $uiRoute}">
-				<a href="/#!/about">ABOUT</a>
+				<a href="/#!/about">About</a>
 			</li>
 			<li class="divider-vertical"></li>
 			<li ui-route="/contact" ng-class="{active: $uiRoute}">
-				<a href="/#!/contact">CONTACT</a>
+				<a href="/#!/contact">Contact</a>
 			</li>
 		</ul>
 		<!--<ul class="nav navbar-nav navbar-right" data-ng-show="authentication.user">-->

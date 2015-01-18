@@ -14,14 +14,47 @@
 	border-color: #78FA89;
 }
 
-.navbar-default {
-	background-color: #f8f8f8;
-	border-color: #e7e7e7;
+.anchor-link {
+	cursor: pointer;
 }
 
-/*.navbar {*/
-/*}*/
+.navbar {
+	background: #ffffff none;
+}
 
-/*.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .active > a {*/
-	/*background: #fff none;*/
-/*}*/
+.navbar-inverse .navbar-nav > li > a {
+	color: #1b3478;
+	text-shadow: none;
+	font-family: playball, serif;
+	font-size: larger;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #000000;;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #ffffff none;
+	color: #000000;
+	box-shadow: none;
+}
+
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+@font-face {
+	font-family: playball;
+	src: url(../fonts/Playball.ttf);
+}
